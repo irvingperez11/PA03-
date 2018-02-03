@@ -7,7 +7,7 @@ public class MayasCircle extends CircleShape{
 
   public MayasCircle(){
     super();
-    this.color = new java.awt(0,200,50);
+    this.color = new java.awt(78,251,197);
 
   }
 }
