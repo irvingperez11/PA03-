@@ -3,7 +3,7 @@ package pa03;
 import java.awt.Color;
 import java.awt.Graphics;
 
-// testing testing 
+// testing testing
 
 /**
  * This represents the model of an animation in which circular shapes move on a board.
@@ -29,7 +29,7 @@ public class DrawingModel {
 	*/
 	private void init(){
 		CircleShape c;
-		for(int i=0; i< circles.length/2; i++){
+		for(int i=0; i< circles.length/3; i++){
 			// we go to circles.length/2 as we add 2 different kinds of circles
 			// each time through this loop.. with 5 classes you'll divide by 5
 			// WHEN YOU ADD ANOTHER SUBCLASS OF CIRCLESHAPE YOU NEED TO
@@ -39,6 +39,9 @@ public class DrawingModel {
 
       c = new RadiusChangingCircle();
       this.add(c);
+
+			c = new MayasCircle();
+			this.add(c);
 
 		}
 	}
