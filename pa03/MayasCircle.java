@@ -1,24 +1,23 @@
 package pa03;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
 public class MayasCircle extends CircleShape{
 
-  private double rc = 10;
+  private double rc = 2;
+  private boolean alt = true;
 
   public MayasCircle(){
     super();
-    this.color = new java.awt(78,251,197);
-
+    this.color = new java.awt.Color(78,251,197,100);
   }
 
   public void update(double dt){
-    if(dt%10 < 5){
+    if(alt){
       this.radius = this.radius - rc;
+      alt = false;
     }
     else{
       this.radius = this.radius + rc;
+      alt = true;
     }
      super.update(dt);
   }
