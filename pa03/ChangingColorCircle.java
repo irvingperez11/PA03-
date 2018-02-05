@@ -40,6 +40,14 @@ public class ChangingColorCircle extends CircleShape {
 	}
 
 	/**
+	* toString overridden method
+	* @override
+	*/
+	public String toString() {
+		return "Lo's Shape: " + super.toString(); 
+	}
+
+	/**
 	* change the values of x,y,vx,vy to keep the circle on the board
 	* also change the shape's color:
 	* 	pink (top), orange (left), red (right), gold (bottom) (sunset colors)
