@@ -49,7 +49,7 @@ public class DrawingModel {
 			this.add(c);
 
 			// Sophie's Circle
-			c = new BlackCircle();
+			c = new BlackCircle(circles);
 			this.add(c);
 
 			// Maddie's Circle
