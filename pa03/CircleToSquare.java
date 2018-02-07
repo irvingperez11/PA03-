@@ -1,6 +1,6 @@
 package pa03;
 
-
+import java.awt.Graphics;
 
 /**
  * Subclass of CircleShape
@@ -11,9 +11,7 @@ package pa03;
 */
 public class CircleToSquare extends CircleShape{
 
-  private boolean c;
-  this.c = c;
-  this.c = true;
+  private boolean c = true;
 
   public CircleToSquare(){
     super();
@@ -85,6 +83,7 @@ public class CircleToSquare extends CircleShape{
       g.drawOval(u,v,w,h);
       g.fillOval(u,v,w,h);
     }
+    super.draw(g);
   }
 
 

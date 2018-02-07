@@ -50,7 +50,7 @@ public class DrawingModel {
 
 			// Sophie's Circle
 			c = new BlackCircle();
-			thi.add(c);
+			this.add(c);
 
 			// Maddie's Circle
 			c = new CircleToSquare();
