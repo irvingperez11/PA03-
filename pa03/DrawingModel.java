@@ -37,15 +37,26 @@ public class DrawingModel {
 			c = new CircleShape();
 			this.add(c);
 
-      		c = new RadiusChangingCircle();
-    		this.add(c);
+      c = new RadiusChangingCircle();
+    	this.add(c);
 
-      		// Lo's shape that changes color
+      // Lo's shape that changes color
 			c = new ChangingColorCircle();
 			this.add(c);
+
 			// Maya's circle that returns to the center and "vibrates"
 			c = new MayasCircle();
 			this.add(c);
+
+			// Sophie's Circle
+			c = new BlackCircle();
+			thi.add(c);
+
+			// Maddie's Circle
+			c = new CircleToSquare();
+			this.add(c);
+
+
 
 
 
