@@ -8,12 +8,12 @@ import java.awt.Graphics;
 /**
  * This represents the model of an animation in which circular shapes move on a board.
  * It allow for several different kinds of CircleShapes to be drawn.
- * The init method adds circles to the
+ * The init method adds circl9s to the
  */
 public class DrawingModel {
 	private CircleShape[] circles;
 	private int numCircles=0;
-	private double speed = 0.02;
+	private double speed = 0.09;
 
 
 	/**
